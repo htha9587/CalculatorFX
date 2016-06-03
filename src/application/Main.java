@@ -1,7 +1,7 @@
 package application;
 	
 /**
- * Version 0.1
+ * Version 0.3
  * @author htha9587
  * 6-3-16
  */
@@ -11,8 +11,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
-
+import application.Model;
+import application.MainController;
 
 public class Main extends Application {
 	@Override

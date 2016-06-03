@@ -1,10 +1,11 @@
 package application;
 
 /**
- * Version 0.1
+ * Version 0.3
  * @author htha9587
  * 6-3-16
  */
+
 
 public class Model 
 {
