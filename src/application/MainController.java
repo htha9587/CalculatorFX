@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
- * Version 0.3
+ * Version 0.4
  * @author htha9587
  * 6-3-16
  */
@@ -21,6 +21,10 @@ public class MainController
 	private boolean start = true;
 	private Model model = new Model();
 	
+	/**
+	 * Processes the number buttons.
+	 * @param event
+	 */
 	@FXML
 	public void processNumbers(ActionEvent event)
 	{
@@ -33,6 +37,10 @@ public class MainController
 		result.setText(result.getText()+ value);
 	}
 	
+	/**
+	 * Processes the Operator buttons.
+	 * @param event
+	 */
 	@FXML
 	public void processOperators(ActionEvent event)
 	{

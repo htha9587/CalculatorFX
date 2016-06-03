@@ -1,7 +1,7 @@
 package application;
 	
 /**
- * Version 0.3
+ * Version 0.4
  * @author htha9587
  * 6-3-16
  */
@@ -11,9 +11,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import application.Model;
-import application.MainController;
 
+/**
+ * Opens the window and gets the CSS and FXML file to show up.
+ * @author htha9587
+ *
+ */
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
@@ -22,12 +25,16 @@ public class Main extends Application {
 			Scene scene = new Scene(root,400,400);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("CalculatorFX");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
+	/**
+	 * Launches the program.
+	 * @author htha9587
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
