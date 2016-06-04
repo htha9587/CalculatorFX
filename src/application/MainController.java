@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
- * Version 0.4
+ * Version 0.5
  * @author htha9587
  * 6-3-16
  */
